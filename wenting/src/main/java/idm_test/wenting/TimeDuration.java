@@ -29,6 +29,11 @@ public class TimeDuration {
 		return time;
 	}
 	
+	// the function getSeconds() is wrote for testing the constructor and for the class RaceResults
+	public int getSeconds() {
+		return seconds;
+	}
+	
 	public static void main(String[] args) {
 		try {
 			new TimeDuration(0).toString();
